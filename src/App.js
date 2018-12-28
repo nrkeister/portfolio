@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
-import './App.scss';
+import './styles/App.scss';
 
 class App extends Component {
-  render() {
-    return (
-      <div className={'title'}>nicole keister</div>
-    );
-  }
+    render() {
+        const inText = <span className={'italic'} style={{margin: 1 + 'em'}}>in</span>;
+        return (
+            <div>
+                <header className={'title'}>nicole keister</header>
+                <p>UX DESIGNER {inText} NEW YORK</p>
+            </div>
+        );
+    }
 }
 
 export default App;

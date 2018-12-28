@@ -1,0 +1,32 @@
+$page-margin: 40px;
+
+body {
+  margin: 0;
+  padding: $page-margin;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  .bold {
+    font-weight: 400;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+
+}
+
+.title {
+  font-family: 'Sacramento', cursive;
+  font-size: 8em;
+  line-height: .5em;
+  margin-top: $page-margin;
+}
