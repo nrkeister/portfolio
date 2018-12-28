@@ -1,5 +1,5 @@
 # Portfolio
-This is the code for my portfolio webpage hosted at [nicolekeister.com](nicolekeister.com).
+This is the code for my portfolio webpage hosted at [nicolekeister.com](http://nicolekeister.com).
 
 This project was initialized using Create React App.
 ## Available Scripts
