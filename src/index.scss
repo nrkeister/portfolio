@@ -11,10 +11,12 @@ body {
   font-weight: 400;
 }
 
-title {
+.title {
   font-family: 'Sacramento', cursive;
+  font-size: 8em;
+  margin-left: 2%;
 }
 
-code {
+.code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
