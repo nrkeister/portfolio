@@ -1,11 +1,13 @@
 $page-margin: 40px;
+$color-pink: #C43546;
 
 body {
   margin: 0;
   padding: $page-margin;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
+  text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -16,17 +18,15 @@ body {
   .italic {
     font-style: italic;
   }
-
-  .center {
-    text-align: center;
-  }
-
-
 }
 
-.title {
-  font-family: 'Sacramento', cursive;
-  font-size: 8em;
-  line-height: .5em;
-  margin-top: $page-margin;
+a {
+  color: $color-pink;
+  letter-spacing: .2em;
+  text-decoration: none;
+  transition: letter-spacing .2s;
+
+  &:hover {
+    letter-spacing: .3em;
+  }
 }

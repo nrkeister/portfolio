@@ -2,4 +2,22 @@
   text-align: center;
 }
 
+.header {
+  position: relative;
+  text-align: center;
+
+  .brushstroke {
+    width: 28em;
+  }
+
+  .title {
+    font-family: 'Kristi', cursive;
+    font-size: 7em;
+    line-height: .5em;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -160%);
+  }
+}
+
 /*# sourceMappingURL=App.css.map */
