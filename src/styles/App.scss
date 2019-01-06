@@ -67,26 +67,4 @@
   display: inline-block;
 }
 
-ul {
-  text-align: left;
-  list-style: none;
-  padding-left: 2.5em;
-
-  li {
-    padding-bottom: .5em;
-
-    &:before {
-      content: "\2022";
-      color: $color-gray;
-      display: inline-block;
-      width: 1.5em;
-      margin-left: -1.5em;
-    }
-  }
-
-
-}
-
-
-
 /*# sourceMappingURL=App.css.map */
