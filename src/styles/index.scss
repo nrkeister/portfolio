@@ -1,32 +1,47 @@
-$page-margin: 40px;
-$color-pink: #C43546;
+@import './variables';
 
 body {
   margin: 0;
   padding: $page-margin;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
 
-  .bold {
-    font-weight: 400;
-  }
+%bold {
+  font-weight: 400;
+}
 
-  .italic {
-    font-style: italic;
-  }
+%italic {
+  font-style: italic;
 }
 
 a {
   color: $color-pink;
-  letter-spacing: .2em;
   text-decoration: none;
-  transition: letter-spacing .2s;
+  transition: font-weight .2s;
+  padding: 0 0 .1em;
+  position: relative;
 
-  &:hover {
-    letter-spacing: .3em;
+  &:before {
+    transform: scaleX(0);
+    visibility: hidden;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: .05em;
+    bottom: 0;
+    left: 0;
+    background: $color-pink;
+    border-radius: .1px;
+    transition: .25s linear;
+  }
+
+  &:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
   }
 }

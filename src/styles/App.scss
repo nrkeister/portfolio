@@ -1,3 +1,6 @@
+@import './variables';
+@import './index.scss';
+
 .App {
   text-align: center;
 }
@@ -16,8 +19,72 @@
     line-height: .5em;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, -160%);
+    transform: translate(-50%, -165%);
   }
 }
+
+.subheader {
+  @extend %bold;
+  font-size: 1.5em;
+  margin-top: 2.5em;
+  margin-bottom: 2em;
+}
+
+.contact {
+  position: absolute;
+  top: $page-margin + 15;
+  right: $page-margin;
+  text-align: right;
+  font-size: 1.25em;
+
+  a {
+    letter-spacing: .2em;
+    text-decoration: none;
+    transition: letter-spacing .2s;
+
+    &:hover {
+      letter-spacing: .3em;
+      font-weight: 300;
+    }
+
+    // don't use underline
+    &:hover:before {
+      visibility: visible;
+      transform: scaleX(0);
+    }
+  }
+}
+
+%title-lines {
+  content: '';
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  border-bottom: .5px solid;
+  color: $color-gray;
+}
+
+.project-title {
+  font-size: 2.5em;
+  margin: 1em 5em .5em;
+  position: relative;
+  overflow: hidden;
+
+  &:before {
+    @extend %title-lines;
+    margin: 0 1.5em 0 -55%;
+  }
+
+  &:after {
+    @extend %title-lines;
+    margin: 0 -55% 0 1.5em;
+  }
+}
+
+.description {
+  width: 30em;
+  display: inline-block;
+}
+
 
 /*# sourceMappingURL=App.css.map */
