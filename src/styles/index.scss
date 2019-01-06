@@ -19,6 +19,14 @@ body {
   font-style: italic;
 }
 
+b {
+  @extend %bold;
+}
+
+i {
+  @extend %italic;
+}
+
 a {
   color: $color-pink;
   text-decoration: none;
@@ -44,4 +52,10 @@ a {
     visibility: visible;
     transform: scaleX(1);
   }
+}
+
+.quote {
+  @extend %italic;
+  text-align: center;
+  margin: .5em 0;
 }

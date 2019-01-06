@@ -55,36 +55,38 @@
   }
 }
 
-%title-lines {
-  content: '';
-  display: inline-block;
-  width: 50%;
-  vertical-align: middle;
-  border-bottom: .5px solid;
-  color: $color-gray;
-}
-
 .project-title {
   font-size: 2.5em;
   margin: 1em 5em .5em;
   position: relative;
   overflow: hidden;
-
-  &:before {
-    @extend %title-lines;
-    margin: 0 1.5em 0 -55%;
-  }
-
-  &:after {
-    @extend %title-lines;
-    margin: 0 -55% 0 1.5em;
-  }
 }
 
 .description {
-  width: 30em;
+  margin: 0 25% 0;
   display: inline-block;
 }
+
+ul {
+  text-align: left;
+  list-style: none;
+  padding-left: 2.5em;
+
+  li {
+    padding-bottom: .5em;
+
+    &:before {
+      content: "\2022";
+      color: $color-gray;
+      display: inline-block;
+      width: 1.5em;
+      margin-left: -1.5em;
+    }
+  }
+
+
+}
+
 
 
 /*# sourceMappingURL=App.css.map */
