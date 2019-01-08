@@ -10,12 +10,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.subheader, b {
+.subheader, .bold, b {
   font-weight: 400;
 }
 
-.quote, i {
+.quote, .italic, i {
   font-style: italic;
+}
+
+p {
+  margin: 0;
 }
 
 a {
@@ -59,13 +63,38 @@ ul li:before {
   margin-left: -1.5em;
 }
 
+ol {
+  text-align: left;
+  list-style: none;
+  padding-left: 2.5em;
+}
+ol li {
+  padding-bottom: 0.5em;
+  counter-increment: step-counter;
+}
+ol li:before {
+  content: counter(step-counter);
+  color: #A5A5A5;
+  display: inline-block;
+  width: 1.5em;
+  margin-left: -1.5em;
+}
+
 .quote {
   text-align: center;
   margin: 0.5em 0;
 }
 
-.App {
-  text-align: center;
+.description {
+  margin: 0 25% 0;
+  display: inline-block;
+}
+
+.divider {
+  background-color: #A5A5A5;
+  height: 1px;
+  width: 30%;
+  margin: 3em 35%;
 }
 
 .header {
@@ -116,11 +145,6 @@ ul li:before {
   margin: 1em 5em 0.5em;
   position: relative;
   overflow: hidden;
-}
-
-.description {
-  margin: 0 25% 0;
-  display: inline-block;
 }
 
 /*# sourceMappingURL=App.css.map */

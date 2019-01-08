@@ -1,0 +1,25 @@
+@import './variables';
+@import './index.scss';
+
+.persona-container {
+  margin: 3em 10%;
+  padding: 3em;
+  background-color: $color-lightgray;
+
+  .persona-photo {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .persona-col {
+    vertical-align: top;
+    display: inline-block;
+
+    .persona-row {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+}
+

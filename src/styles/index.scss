@@ -14,17 +14,23 @@ body {
 %bold {
   font-weight: 400;
 }
-
 %italic {
   font-style: italic;
 }
-
 b {
   @extend %bold;
 }
-
 i {
   @extend %italic;
+}
+.bold {
+  @extend %bold;
+}
+.italic {
+  @extend %italic;
+}
+p {
+  margin: 0;
 }
 
 a {
@@ -72,8 +78,39 @@ ul {
   }
 }
 
+ol {
+  text-align: left;
+  list-style: none;
+  padding-left: 2.5em;
+
+  li {
+    padding-bottom: .5em;
+    counter-increment: step-counter;
+
+    &:before {
+      content: counter(step-counter);
+      color: $color-gray;
+      display: inline-block;
+      width: 1.5em;
+      margin-left: -1.5em;
+    }
+  }
+}
+
 .quote {
   @extend %italic;
   text-align: center;
   margin: .5em 0;
+}
+
+.description {
+  margin: 0 25% 0;
+  display: inline-block;
+}
+
+.divider {
+  background-color: $color-gray;
+  height: 1px;
+  width: 30%;
+  margin: 3em 35%;
 }

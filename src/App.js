@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import './styles/App.scss';
+import Research from './research';
+
+// images
 import brushstroke from './resources/images/brushstroke.svg';
 import tripItinFull from './resources/planitScreens/planit-trip-itin-full.png';
 import tripListFull from './resources/planitScreens/planit-trip-list-full.png';
 import tripDocuments from './resources/planitScreens/planit-trip-documents-full.png';
+
 
 class App extends Component {
     render() {
@@ -25,28 +29,10 @@ class App extends Component {
             </p>
         );};
 
-        const research = () => {return(
-            <p className={'description'}>
-                I started my process by interviewing people who had travelled internationally within the past two years.
-                I chose international travel because people tend to plan that type of trip more extensively.
-                There were several key findings:
-                <ul>
-                    <li>Users want the <b>fastest</b> and <b>lowest-effort</b> solution.</li>
-                    <li>Users like <b>flexibility</b> in the type of information they can store. Some prefer
-                        spreadsheets for this reason. One user is quoted as saying,
-                        <div className={'quote'}>“I can put a ton of information in there—anything I want.”</div>
-                        But they find these types of documents difficult to re-organize, format, and view on a phone.</li>
-                    <li>Users rarely use planning apps because they find them <b>difficult to use</b>.</li>
-                </ul>
-            </p>
-        );};
-
-
-
         return (
             <div>
                 <div className={'header'}>
-                    <img src={brushstroke} className={'brushstroke'} alt="brushstroke" />
+                    <img src={brushstroke} className={'brushstroke'} alt='Brushstroke' />
                     <header className={'title'}>Nicole Keister</header>
                 </div>
                 <div className={'contact'}>
@@ -68,7 +54,7 @@ class App extends Component {
                     <img src={tripDocuments} style={{width: 15 + 'em'}} alt="Trip documents"/>
                 </div>
                 <p className={'subheader'}>research</p>
-                {research()}
+                <Research />
             </div>
         );
     }
