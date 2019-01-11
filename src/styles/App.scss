@@ -44,21 +44,4 @@
   }
 }
 
-h1 {
-  @extend %body-font;
-  font-size: 2.5em;
-  margin: 1em 5em .5em;
-  position: relative;
-  overflow: hidden;
-  text-transform: lowercase;
-}
-
-h2 {
-  @extend %body-font;
-  @extend %bold;
-  font-size: 1.5em;
-  margin-top: 2.5em;
-  margin-bottom: 2em;
-}
-
 /*# sourceMappingURL=App.css.map */
