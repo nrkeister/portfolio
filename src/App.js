@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './styles/App.scss';
 import Research from './research';
+import InformationArchitecture from './informationArchitecture';
 
 // images
 import brushstroke from './resources/images/brushstroke.svg';
@@ -56,6 +57,8 @@ class App extends Component {
                 </div>
                 <p className={'subheader'}>research</p>
                 <Research />
+                <p className={'subheader'}>information architecture</p>
+                <InformationArchitecture />
             </div>
         );
     }
