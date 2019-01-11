@@ -15,7 +15,8 @@ class App extends Component {
             <p style={{marginTop: 2.5 + 'em'}}>
                 Hi! I’m Nicole Keister, a UX Designer and Software Engineer.<br/>
                 I would love to chat about job opportunities, so please contact me through <a
-                href={'https://linkedin.com/in/nicolekeister'} target='_blank' rel='noopener noreferrer'>LinkedIn</a>.<br/>
+                href={'https://linkedin.com/in/nicolekeister'} target='_blank' rel='noopener noreferrer'>LinkedIn</a><br/>
+                or email, if you already have my contact information.<br/><br/>
                 Take a look at my most in-depth design project…
             </p>
         );};
