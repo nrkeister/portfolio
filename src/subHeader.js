@@ -2,10 +2,15 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class SubHeader extends Component {
+    static defaultProps = {
+        hasDivider: true
+    };
+
     render() {
+        const divider = <div className={'divider'} />;
         return(
             <div>
-                <div className={'divider'} />
+                {this.props.hasDivider && divider}
                 <h2>{this.props.text}</h2>
             </div>
         );
@@ -13,7 +18,8 @@ class SubHeader extends Component {
 }
 
 SubHeader.propTypes = {
-    text: PropTypes.string
+    text: PropTypes.string.required,
+    hasDivider: PropTypes.bool
 };
 
 export default SubHeader;
