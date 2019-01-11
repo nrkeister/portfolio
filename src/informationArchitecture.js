@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import userFlowOpen from './resources/images/user-flow-open.png';
 import userFlowManage from './resources/images/user-flow-manage.png';
 import similarityMatrix from './resources/images/similarity-matrix.png';
+import SubHeader from './subHeader';
 
 class InformationArchitecture extends Component {
     render() {
         return(
             <div>
+                <SubHeader text={'User Flows'} />
                 <p className={'description'}>
                     I created two user flows that would be important to how the user experiences the app.
                 </p>
@@ -14,7 +16,7 @@ class InformationArchitecture extends Component {
                      alt={'Flow diagram describing opening the app'}/>
                 <img src={userFlowManage} style={{width: '50em', marginTop: '5em'}}
                      alt={'Flow diagram describing managing a trip'}/>
-                <div className={'divider'} />
+                <SubHeader text={'User Study'} />
                 <p className={'description'}>
                     I performed a card sorting study on 10 potential users. The study was a hybrid open and closed sort.
                     There were 3 predefined categories 'All Trips', 'This Trip', and 'My Settings', but users could

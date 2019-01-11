@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './styles/research.scss';
+import SubHeader from './subHeader';
 import personaDana from './resources/images/persona-dana.jpg';
 import personaChris from './resources/images/persona-chris.jpg';
 
@@ -7,6 +8,7 @@ class Research extends Component {
     render() {
         return(
             <div>
+                <SubHeader text={'Interviews'} />
                 <p className={'description'}>
                     I started my process by interviewing people who had travelled internationally within the past two years.
                     I chose international travel because people tend to plan that type of trip more extensively.
@@ -21,9 +23,7 @@ class Research extends Component {
                     <li>Users rarely use planning apps because they find them <b>difficult to use</b>.</li>
                 </ul>
 
-
-                <div className={'divider'} />
-                <h2>Competitor Research</h2>
+                <SubHeader text={'Competitor Research'} />
                 <p className={'description'}>
                     From there I researched my competitors and made a feature comparison chart. My main competitors were:
                 </p>
@@ -37,7 +37,7 @@ class Research extends Component {
                 </p>
 
 
-                <div className={'divider'} />
+                <SubHeader text={'Personas'} />
                 <p className={'description'}>
                     Next, I made personas and use cases based on what my interviewees indicated they wanted from a travel
                     planning app and how they use tools to plan trips.

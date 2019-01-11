@@ -22,7 +22,7 @@ class App extends Component {
             </p>
         );};
 
-        const planitInto = () => {return(
+        const planitIntro = () => {return(
             <p className={'description'}>
                 I found that travelers needed a simple way to organize their information because they often have to
                 make their own time-intensive documents to record trip details or store details in their emails,
@@ -49,7 +49,7 @@ class App extends Component {
                 </div>
                 {intro()}
                 <h1>Planit</h1>
-                {planitInto()}
+                {planitIntro()}
                 <div style={{marginTop: 2 + 'em', marginBottom: 2 + 'em'}} >
                     <img src={tripListFull} style={{width: 15 + 'em', marginRight: 1 + 'em'}} alt="Full trip list"/>
                     <img src={tripItinFull} style={{width: 15 + 'em', marginRight: 1 + 'em'}} alt="Full trip itinerary"/>
