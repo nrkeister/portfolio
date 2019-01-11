@@ -1,13 +1,16 @@
 @charset "UTF-8";
 body {
-  margin: 0;
-  padding: 60px;
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 16px;
   text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  padding: 60px;
+  margin: 0;
 }
 
 .bold, b {
@@ -51,6 +54,7 @@ ul {
   text-align: left;
   list-style: none;
   padding-left: 2.5em;
+  margin: 1.5em 25%;
 }
 ul li {
   padding-bottom: 0.5em;
@@ -67,6 +71,7 @@ ol {
   text-align: left;
   list-style: none;
   padding-left: 2.5em;
+  margin: 1.5em 25%;
 }
 ol li {
   padding-bottom: 0.5em;
@@ -86,7 +91,7 @@ ol li:before {
 }
 
 .description {
-  margin: 0 25% 0;
+  margin: 0 25%;
   display: inline-block;
 }
 
@@ -114,6 +119,9 @@ ol li:before {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+.persona-container .list {
+  margin: 1.5em 0;
 }
 
 /*# sourceMappingURL=research.css.map */

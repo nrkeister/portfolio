@@ -48,17 +48,19 @@ class App extends Component {
                     </div>
                 </div>
                 {intro()}
-                <div className={'project-title'}>planit</div>
+                <h1>Planit</h1>
                 {planitInto()}
                 <div style={{marginTop: 2 + 'em', marginBottom: 2 + 'em'}} >
                     <img src={tripListFull} style={{width: 15 + 'em', marginRight: 1 + 'em'}} alt="Full trip list"/>
                     <img src={tripItinFull} style={{width: 15 + 'em', marginRight: 1 + 'em'}} alt="Full trip itinerary"/>
                     <img src={tripDocuments} style={{width: 15 + 'em'}} alt="Trip documents"/>
                 </div>
-                <p className={'subheader'}>research</p>
+                <h1>Research</h1>
                 <Research />
-                <p className={'subheader'}>information architecture</p>
+                <h1>Information Architecture</h1>
                 <InformationArchitecture />
+                <h1>Design</h1>
+                <p className={'description'}>Time for the big kahuna!</p>
             </div>
         );
     }

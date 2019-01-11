@@ -1,7 +1,5 @@
 @charset "UTF-8";
-body {
-  margin: 0;
-  padding: 60px;
+h2, h1, body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -10,7 +8,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.subheader, .bold, b {
+body {
+  padding: 60px;
+  margin: 0;
+}
+
+h2, .bold, b {
   font-weight: 400;
 }
 
@@ -51,6 +54,7 @@ ul {
   text-align: left;
   list-style: none;
   padding-left: 2.5em;
+  margin: 1.5em 25%;
 }
 ul li {
   padding-bottom: 0.5em;
@@ -67,6 +71,7 @@ ol {
   text-align: left;
   list-style: none;
   padding-left: 2.5em;
+  margin: 1.5em 25%;
 }
 ol li {
   padding-bottom: 0.5em;
@@ -86,7 +91,7 @@ ol li:before {
 }
 
 .description {
-  margin: 0 25% 0;
+  margin: 0 25%;
   display: inline-block;
 }
 
@@ -113,12 +118,6 @@ ol li:before {
   transform: translate(-50%, -165%);
 }
 
-.subheader {
-  font-size: 1.5em;
-  margin-top: 2.5em;
-  margin-bottom: 2em;
-}
-
 .contact {
   position: absolute;
   top: 75px;
@@ -140,11 +139,18 @@ ol li:before {
   transform: scaleX(0);
 }
 
-.project-title {
+h1 {
   font-size: 2.5em;
   margin: 1em 5em 0.5em;
   position: relative;
   overflow: hidden;
+  text-transform: lowercase;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 2.5em;
+  margin-bottom: 2em;
 }
 
 /*# sourceMappingURL=App.css.map */

@@ -11,26 +11,38 @@ class Research extends Component {
                     I started my process by interviewing people who had travelled internationally within the past two years.
                     I chose international travel because people tend to plan that type of trip more extensively.
                     There were several key findings:
-                    <ul>
-                        <li>Users want the <b>fastest</b> and <b>lowest-effort</b> solution.</li>
-                        <li>Users like <b>flexibility</b> in the type of information they can store. Some prefer
-                            spreadsheets for this reason. One user is quoted as saying,
-                            <div className={'quote'}>“I can put a ton of information in there—anything I want.”</div>
-                            But they find these types of documents difficult to re-organize, format, and view on a phone.</li>
-                        <li>Users rarely use planning apps because they find them <b>difficult to use</b>.</li>
-                    </ul>
-                    <div className={'divider'} />
+                </p>
+                <ul>
+                    <li>Users want the <b>fastest</b> and <b>lowest-effort</b> solution.</li>
+                    <li>Users like <b>flexibility</b> in the type of information they can store. Some prefer
+                        spreadsheets for this reason. One user is quoted as saying,
+                        <div className={'quote'}>“I can put a ton of information in there—anything I want.”</div>
+                        But they find these types of documents difficult to re-organize, format, and view on a phone.</li>
+                    <li>Users rarely use planning apps because they find them <b>difficult to use</b>.</li>
+                </ul>
+
+
+                <div className={'divider'} />
+                <h2>Competitor Research</h2>
+                <p className={'description'}>
                     From there I researched my competitors and made a feature comparison chart. My main competitors were:
-                    <ol>
-                        <li>Email and calendar</li>
-                        <li>Spreadsheets and documents</li>
-                        <li>Tripit (travel planning app and website)</li>
-                    </ol>
+                </p>
+                <ol>
+                    <li>Email and calendar</li>
+                    <li>Spreadsheets and documents</li>
+                    <li>Tripit (travel planning app and website)</li>
+                </ol>
+                <p className={'description'}>
                     The most essential feature these all lacked was ease of use.
-                    <div className={'divider'} />
+                </p>
+
+
+                <div className={'divider'} />
+                <p className={'description'}>
                     Next, I made personas and use cases based on what my interviewees indicated they wanted from a travel
                     planning app and how they use tools to plan trips.
                 </p>
+
 
                 <div className={'persona-container'}>
                     <div className={'persona-col'} style={{width: '30%'}}>
@@ -41,27 +53,30 @@ class Research extends Component {
                         <div className={'persona-row'}><p>Wife and mother<br/>Group-traveler</p></div>
                     </div>
                     <div className={'persona-col'} style={{textAlign: 'left', width: '50%', paddingLeft: '10%'}}>
-                        <div className={'persona-row'}><p>
+                        <div className={'persona-row'}>
                             Behaviors
-                            <ul>
+                            <ul className={'list'}>
                                 <li>Wants a plan for the day</li>
                                 <li>Organized</li>
                                 <li>Juggles many needs in the group</li>
                             </ul>
                             Goals and Needs
-                            <ul>
+                            <ul className={'list'}>
                                 <li>Keeping her family in the loop</li>
                                 <li>Seeing all the details in one place</li>
                                 <li>Sticking to a budget</li>
                             </ul>
-                            Use Case <br/>
-                            Dana is on a trip with her husband and three kids, who all use Planit. They have tours
-                            and sights on their itinerary that they can all acess on their own phones in case they get
-                            lost. She also stores important documents and notes, like photos of their passports and
-                            how to ask for help in an emergency.
-                        </p></div>
+                            <p>
+                                Use Case <br/>
+                                Dana is on a trip with her husband and three kids, who all use Planit. They have tours
+                                and sights on their itinerary that they can all acess on their own phones in case they get
+                                lost. She also stores important documents and notes, like photos of their passports and
+                                how to ask for help in an emergency.
+                            </p>
+                        </div>
                     </div>
                 </div>
+
 
                 <div className={'persona-container'}>
                     <div className={'persona-col'} style={{width: '30%'}}>
@@ -72,15 +87,15 @@ class Research extends Component {
                         <div className={'persona-row'}><p>Single<br/>Solo-traveler</p></div>
                     </div>
                     <div className={'persona-col'} style={{textAlign: 'left', width: '50%', paddingLeft: '10%'}}>
-                        <div className={'persona-row'}><p>
+                        <div className={'persona-row'}>
                             Behaviors
-                            <ul>
+                            <ul className={'list'}>
                                 <li>Goes with the flow</li>
                                 <li>Disorganized</li>
                                 <li>Wants free time to explore</li>
                             </ul>
                             Goals and Needs
-                            <ul>
+                            <ul className={'list'}>
                                 <li>Traveling without scheduling getting in the way</li>
                                 <li>Entering information quickly</li>
                                 <li>Sharing plans with friends</li>
@@ -91,7 +106,7 @@ class Research extends Component {
                             Chris shares his trip with his friend so they can see when they might cross paths again.
                             Chris hasn't planned past the next week, but his friend can look at the trip later to see
                             what Chris has added.
-                        </p></div>
+                        </div>
                     </div>
                 </div>
             </div>
