@@ -8,7 +8,7 @@ class Research extends Component {
     render() {
         return(
             <div>
-                <SubHeader text={'Interviews'} />
+                <SubHeader text={'Interviews'} hasDivider={false} />
                 <p className={'description'}>
                     I started my process by interviewing people who had travelled internationally within the past two years.
                     I chose international travel because people tend to plan that type of trip more extensively.

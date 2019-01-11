@@ -8,7 +8,7 @@ class InformationArchitecture extends Component {
     render() {
         return(
             <div>
-                <SubHeader text={'User Flows'} />
+                <SubHeader text={'User Flows'} hasDivider={false} />
                 <p className={'description'}>
                     I created two user flows that would be important to how the user experiences the app.
                 </p>
