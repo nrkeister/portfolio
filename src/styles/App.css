@@ -117,20 +117,10 @@ h2 {
   margin: 3em 35%;
 }
 
-.header {
+.brushstroke {
+  width: 28em;
   position: relative;
   text-align: center;
-}
-.header .brushstroke {
-  width: 28em;
-}
-.header .title {
-  font-family: "Kristi", cursive;
-  font-size: 7em;
-  line-height: 0.5em;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -165%);
 }
 
 .contact {

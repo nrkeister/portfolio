@@ -36,7 +36,6 @@ class App extends Component {
             <div>
                 <div className={'header'}>
                     <img src={brushstroke} className={'brushstroke'} alt='Brushstroke' />
-                    <header className={'title'}>Nicole Keister</header>
                 </div>
                 <div className={'contact'}>
                     <div>
