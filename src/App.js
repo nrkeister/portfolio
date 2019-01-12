@@ -3,6 +3,7 @@ import './styles/App.scss';
 import Research from './research';
 import InformationArchitecture from './informationArchitecture';
 import Design from './design';
+import sketchFile from './resources/planit.sketch';
 
 // images
 import brushstroke from './resources/images/brushstroke.svg';
@@ -61,6 +62,24 @@ class App extends Component {
                 <InformationArchitecture />
                 <h1>Design</h1>
                 <Design />
+                <h1>The Final Design</h1>
+                <p className={'description'}>
+                    <br/><br/>
+                    check out my prototype on inVision
+                    <br/>
+                    <a href={'https://invis.io/TXPRKQZ6HZ7#/338472500_Trip_List_-_Empty'}
+                       style={{marginRight: '1em'}} target='_blank' rel='noopener noreferrer'>empty state</a>  |
+                    <a href={'https://invis.io/TXPRKQZ6HZ7#/338472498_Trip_Itinerary_-_Full'}
+                       style={{marginLeft: '1em'}} target='_blank' rel='noopener noreferrer'>full state</a>
+                    <br/><br/>
+                    or
+                    <br/><br/>
+                    <a href={sketchFile} download={'Nicole Keister Planit.sketch'}>
+                        download my sketch file
+                    </a>
+                    <br/>
+                    which includes even more full state designs
+                </p>
             </div>
         );
     }
