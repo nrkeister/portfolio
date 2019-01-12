@@ -1,0 +1,15 @@
+@import './_variables';
+
+.screenSection {
+  margin: 0 10%;
+}
+
+.screen {
+  height: 20em;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.outline {
+  border: 1px solid $color-lightgray;
+}

@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import './styles/App.scss';
 import Research from './research';
 import InformationArchitecture from './informationArchitecture';
+import Design from './design';
 
 // images
 import brushstroke from './resources/images/brushstroke.svg';
-import tripItinFull from './resources/planitScreens/planit-trip-itin-full.png';
-import tripListFull from './resources/planitScreens/planit-trip-list-full.png';
-import tripDocuments from './resources/planitScreens/planit-trip-documents-full.png';
-
+import tripItinFull from './resources/planitScreens/trip-itin-hifi-2.png';
+import tripListFull from './resources/planitScreens/trip-list-hifi-2.png';
+import tripDocuments from './resources/planitScreens/trip-documents-hifi.png';
 
 class App extends Component {
     render() {
@@ -60,7 +60,7 @@ class App extends Component {
                 <h1>Information Architecture</h1>
                 <InformationArchitecture />
                 <h1>Design</h1>
-                <p className={'description'}>Time for the big kahuna!</p>
+                <Design />
             </div>
         );
     }
