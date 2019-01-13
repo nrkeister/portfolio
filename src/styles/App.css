@@ -171,6 +171,15 @@ h2 {
   margin: 0 0.5em;
 }
 
+@media screen and (max-width: 900px) {
+  .contact {
+    position: static;
+    display: block;
+    text-align: center;
+    font-size: 1.25em;
+    margin-top: 2em;
+  }
+}
 @media screen and (max-width: 500px) {
   .planitScreen {
     width: 31.6666666667%;

@@ -17,8 +17,8 @@ class App extends Component {
             <p style={{marginTop: '2.5em'}}>
                 Hi! I’m Nicole Keister, a UX Designer and Software Engineer.<br/><br/>
                 I would love to chat about job opportunities, so please contact me through <a
-                href={'https://linkedin.com/in/nicolekeister'} target='_blank' rel='noopener noreferrer'>LinkedIn</a><br/>
-                or email, if you already have my contact information.<br/><br/>
+                href={'https://linkedin.com/in/nicolekeister'} target='_blank' rel='noopener noreferrer'>LinkedIn</a> or
+                email, if you already have my contact information.<br/><br/>
                 Take a look at my most in-depth design project…
             </p>
         );};
@@ -64,8 +64,7 @@ class App extends Component {
                 <h1 style={{marginTop: '2em'}}>The Final Design</h1>
                 <p className={'description'}>
                     <br/><br/>
-                    check out my prototype on inVision
-                    <br/>
+                    check out my prototype on inVision<br/>
                     <a href={'https://invis.io/TXPRKQZ6HZ7#/338472500_Trip_List_-_Empty'}
                        style={{marginRight: '1em'}} target='_blank' rel='noopener noreferrer'>empty state</a>  |
                     <a href={'https://invis.io/TXPRKQZ6HZ7#/338472498_Trip_Itinerary_-_Full'}
@@ -73,11 +72,14 @@ class App extends Component {
                     <br/><br/>
                     or
                     <br/><br/>
-                    <a href={sketchFile} download={'Nicole Keister Planit.sketch'}>
-                        download my sketch file
-                    </a>
-                    <br/>
+                    <a href={sketchFile} download={'Nicole Keister Planit.sketch'}>download my sketch file</a><br/>
                     which includes even more full state designs
+                </p>
+                <div className={'divider'}/>
+                <p className={'description'}>
+                    Thanks for reading! If you liked what you saw or would like to know more, please contact me through <a
+                    href={'https://linkedin.com/in/nicolekeister'} target='_blank' rel='noopener noreferrer'>LinkedIn</a> or
+                    email, if you already have my contact information.<br/><br/>
                 </p>
             </div>
         );
