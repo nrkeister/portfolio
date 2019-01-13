@@ -14,7 +14,7 @@ class InformationArchitecture extends Component {
                 </p>
                 <img src={userFlowOpen} style={{width: '100%', maxWidth: '40em'}}
                      alt={'Flow diagram describing opening the app'}/>
-                <img src={userFlowManage} style={{width: '100%', maxWidth: '50em', marginTop: '5em'}}
+                <img src={userFlowManage} style={{width: '100%', maxWidth: '50em', marginTop: '5%'}}
                      alt={'Flow diagram describing managing a trip'}/>
                 <SubHeader text={'User Study'} />
                 <p className={'description'}>
