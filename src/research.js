@@ -69,7 +69,7 @@ class Research extends Component {
                             <p>
                                 Use Case <br/>
                                 Dana is on a trip with her husband and three kids, who all use Planit. They have tours
-                                and sights on their itinerary that they can all acess on their own phones in case they get
+                                and sights on their itinerary that they can all access on their own phones in case they get
                                 lost. She also stores important documents and notes, like photos of their passports and
                                 how to ask for help in an emergency.
                             </p>
@@ -101,7 +101,7 @@ class Research extends Component {
                                 <li>Sharing plans with friends</li>
                             </ul>
                             Use Case <br/>
-                            Chris has met up with his friend abroad. The friend gives Chris recommendations for the
+                            Chris has met up with his friend abroad. The friend gives him recommendations for the
                             best bars in the city, and Chris jots them down in his trip notes so he can find them later.
                             Chris shares his trip with his friend so they can see when they might cross paths again.
                             Chris hasn't planned past the next week, but his friend can look at the trip later to see
