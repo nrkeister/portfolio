@@ -3,6 +3,7 @@ import './styles/App.scss';
 import Research from './research';
 import InformationArchitecture from './informationArchitecture';
 import Design from './design';
+import planitLogo from './resources/images/planit-logo.png';
 import sketchFile from './resources/planit.sketch';
 
 // images
@@ -52,7 +53,7 @@ class App extends Component {
                     </div>
                 </div>
                 {intro()}
-                <h1>Planit</h1>
+                <img src={planitLogo} className={'planitLogo'} alt="Planit Logo with spaceship"/>
                 {planitIntro()}
                 <div className={'planitScreenContainer'}>
                     <img src={tripListFull} className={'planitScreen'} alt="Full trip list"/>

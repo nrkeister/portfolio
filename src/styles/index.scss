@@ -113,6 +113,11 @@ h1 {
   text-transform: lowercase;
 }
 
+.planitLogo {
+  width: 10em;
+  margin: 2.5em 0 1.5em;
+}
+
 h2 {
   @extend %body-font;
   @extend %bold;

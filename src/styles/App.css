@@ -94,6 +94,11 @@ h1 {
   text-transform: lowercase;
 }
 
+.planitLogo {
+  width: 10em;
+  margin: 2.5em 0 1.5em;
+}
+
 h2 {
   font-size: 1.5em;
   margin-top: 2.5em;
