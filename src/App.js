@@ -14,8 +14,8 @@ import tripDocuments from './resources/planitScreens/trip-documents-hifi.png';
 class App extends Component {
     render() {
         const intro = () => {return(
-            <p style={{marginTop: 2.5 + 'em'}}>
-                Hi! I’m Nicole Keister, a UX Designer and Software Engineer.<br/>
+            <p style={{marginTop: '2.5em'}}>
+                Hi! I’m Nicole Keister, a UX Designer and Software Engineer.<br/><br/>
                 I would love to chat about job opportunities, so please contact me through <a
                 href={'https://linkedin.com/in/nicolekeister'} target='_blank' rel='noopener noreferrer'>LinkedIn</a><br/>
                 or email, if you already have my contact information.<br/><br/>
@@ -42,7 +42,7 @@ class App extends Component {
                         <a href={'https://linkedin.com/in/nicolekeister'}
                            target='_blank' rel='noopener noreferrer'>linkedin</a>
                     </div>
-                    <div style={{marginTop: 1 + 'em'}}>
+                    <div style={{marginTop: '1em'}}>
                         <a href={'https://github.com/nrkeister/portfolio'}
                            target='_blank' rel='noopener noreferrer'>github</a>
                     </div>
@@ -50,10 +50,10 @@ class App extends Component {
                 {intro()}
                 <h1>Planit</h1>
                 {planitIntro()}
-                <div style={{marginTop: 2 + 'em', marginBottom: 2 + 'em'}} >
-                    <img src={tripListFull} style={{width: 15 + 'em', marginRight: 1 + 'em'}} alt="Full trip list"/>
-                    <img src={tripItinFull} style={{width: 15 + 'em', marginRight: 1 + 'em'}} alt="Full trip itinerary"/>
-                    <img src={tripDocuments} style={{width: 15 + 'em'}} alt="Trip documents"/>
+                <div className={'planitScreenContainer'}>
+                    <img src={tripListFull} className={'planitScreen'} alt="Full trip list"/>
+                    <img src={tripItinFull} className={'planitScreen'} alt="Full trip itinerary"/>
+                    <img src={tripDocuments} className={'planitScreen'} alt="Trip documents"/>
                 </div>
                 <h1>Research</h1>
                 <Research />
@@ -61,7 +61,7 @@ class App extends Component {
                 <InformationArchitecture />
                 <h1>Design</h1>
                 <Design />
-                <h1>The Final Design</h1>
+                <h1 style={{marginTop: '2em'}}>The Final Design</h1>
                 <p className={'description'}>
                     <br/><br/>
                     check out my prototype on inVision

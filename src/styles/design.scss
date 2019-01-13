@@ -1,15 +1,25 @@
 @import './_variables';
 
 .screenSection {
-  margin: 0 10%;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  max-width: 70em;
 }
 
 .screen {
+  margin: 2em .5em 0 .5em;
   height: 20em;
-  margin-left: 2em;
-  margin-top: 2em;
+  position: relative;
+  text-align: center;
 }
 
 .outline {
   border: 1px solid $color-lightgray;
+}
+
+@media screen and (max-width: 500px) {
+  .screen {
+    margin: 1em 0 0;
+  }
 }

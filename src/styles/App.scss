@@ -32,4 +32,25 @@
   }
 }
 
+.planitScreenContainer{
+  margin: 2em 0;
+}
+
+.planitScreen {
+  width: 15em;
+  margin: 0 .5em;
+}
+
+@media screen and (max-width: 500px) {
+
+  .planitScreen {
+    width: ((100% - 5) / 3);
+    margin: 0;
+
+    &:nth-child(2) {
+      margin: 0 (5% / 2);
+    }
+  }
+}
+
 /*# sourceMappingURL=App.css.map */

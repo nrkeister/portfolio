@@ -11,7 +11,7 @@
 body {
   @extend %body-font;
   padding: $page-margin;
-  margin: 0;
+  margin: 0 auto;
 }
 
 %bold {
@@ -106,8 +106,9 @@ ol {
 h1 {
   @extend %body-font;
   font-size: 2.5em;
-  margin: 1em 5em .5em;
+  margin: 1em 0 .5em;
   position: relative;
+  text-align: center;
   overflow: hidden;
   text-transform: lowercase;
 }
@@ -128,7 +129,8 @@ h2 {
 }
 
 .description {
-  margin: 0 25%;
+  max-width: 50em;
+  margin: 0 auto;
   display: inline-block;
 }
 
@@ -137,4 +139,21 @@ h2 {
   height: 1px;
   width: 30%;
   margin: 3em 35%;
+}
+
+@media screen and (max-width: 700px) {
+  ul, ol {
+    margin: 1.5em  0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+
+  h2 {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+  }
 }

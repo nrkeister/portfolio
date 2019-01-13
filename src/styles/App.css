@@ -10,7 +10,7 @@ h2, h1, body {
 
 body {
   padding: 60px 60px 100px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 h2, .bold, b {
@@ -87,8 +87,9 @@ ol li:before {
 
 h1 {
   font-size: 2.5em;
-  margin: 1em 5em 0.5em;
+  margin: 1em 0 0.5em;
   position: relative;
+  text-align: center;
   overflow: hidden;
   text-transform: lowercase;
 }
@@ -106,7 +107,8 @@ h2 {
 }
 
 .description {
-  margin: 0 25%;
+  max-width: 50em;
+  margin: 0 auto;
   display: inline-block;
 }
 
@@ -117,6 +119,21 @@ h2 {
   margin: 3em 35%;
 }
 
+@media screen and (max-width: 700px) {
+  ul, ol {
+    margin: 1.5em 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+
+  h2 {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+  }
+}
 .brushstroke {
   width: 28em;
   position: relative;
@@ -144,6 +161,24 @@ h2 {
   transform: scaleX(0);
 }
 
+.planitScreenContainer {
+  margin: 2em 0;
+}
+
+.planitScreen {
+  width: 15em;
+  margin: 0 0.5em;
+}
+
+@media screen and (max-width: 500px) {
+  .planitScreen {
+    width: 31.6666666667%;
+    margin: 0;
+  }
+  .planitScreen:nth-child(2) {
+    margin: 0 2.5%;
+  }
+}
 /*# sourceMappingURL=App.css.map */
 
 /*# sourceMappingURL=App.css.map */

@@ -45,14 +45,14 @@ class Research extends Component {
 
 
                 <div className={'persona-container'}>
-                    <div className={'persona-col'} style={{width: '30%'}}>
+                    <div className={'persona-col intro'}>
                         <div className={'persona-row'}>
                             <img src={personaDana} className={'persona-photo'} alt={'Woman overlooking Amsterdam canal'}/>
                         </div>
                         <div className={'persona-row bold'}>Dana: the detailed planner</div>
                         <div className={'persona-row'}><p>Wife and mother<br/>Group-traveler</p></div>
                     </div>
-                    <div className={'persona-col'} style={{textAlign: 'left', width: '50%', paddingLeft: '10%'}}>
+                    <div className={'persona-col info'}>
                         <div className={'persona-row'}>
                             Behaviors
                             <ul className={'list'}>
@@ -79,14 +79,14 @@ class Research extends Component {
 
 
                 <div className={'persona-container'}>
-                    <div className={'persona-col'} style={{width: '30%'}}>
+                    <div className={'persona-col intro'}>
                         <div className={'persona-row'}>
                             <img src={personaChris} className={'persona-photo'} alt={'Man hiking rock formations'}/>
                         </div>
                         <div className={'persona-row bold'}>Chris: the casual planner</div>
                         <div className={'persona-row'}><p>Single<br/>Solo-traveler</p></div>
                     </div>
-                    <div className={'persona-col'} style={{textAlign: 'left', width: '50%', paddingLeft: '10%'}}>
+                    <div className={'persona-col info'}>
                         <div className={'persona-row'}>
                             Behaviors
                             <ul className={'list'}>

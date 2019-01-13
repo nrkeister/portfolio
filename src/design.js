@@ -48,7 +48,7 @@ class Design extends Component {
                     unfamiliar patterns not native to their operating system.
                 </p>
                 <div className={'screenSection'}>
-                    <img src={tripListSketch1} className={'screen'} style={{marginLeft: '0'}}
+                    <img src={tripListSketch1} className={'screen'}
                          alt={'Sketch of trip list screen'} />
                     <img src={tripListSketch2} className={'screen'}
                          alt={'Sketch of trip list screen'}/>
@@ -73,7 +73,7 @@ class Design extends Component {
                     event.
                 </p>
                 <div className={'screenSection'}>
-                    <img src={tripItinSketch1} className={'screen'} style={{marginLeft: '0'}}
+                    <img src={tripItinSketch1} className={'screen'}
                          alt={'Sketch of trip itinerary screen'} />
                     <img src={tripItinLofi} className={'screen'}
                          alt={'Low fidelity trip itinerary screen'} />
@@ -91,7 +91,7 @@ class Design extends Component {
                     information later as they build the trip rather than have a confusing first experience.
                 </p>
                 <div className={'screenSection'}>
-                    <img src={createTripSketch} className={'screen'} style={{marginLeft: '0'}}
+                    <img src={createTripSketch} className={'screen'}
                          alt={'Sketch of create trip screen'} />
                     <img src={createTripLofi1} className={'screen'}
                          alt={'Low fidelity create trip screen'} />
@@ -115,7 +115,7 @@ class Design extends Component {
                                        target='_blank' rel='noopener noreferrer'>prototype</a>.
                 </p>
                 <div className={'screenSection'}>
-                    <img src={createEventSketch} className={'screen'} style={{marginLeft: '0'}}
+                    <img src={createEventSketch} className={'screen'}
                          alt={'Sketch of create event screen'} />
                     <img src={createEventLofi1} className={'screen'}
                          alt={'Low fidelity create event screen'} />
