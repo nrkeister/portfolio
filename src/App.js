@@ -6,7 +6,7 @@ import Design from './design';
 import sketchFile from './resources/planit.sketch';
 
 // images
-import brushstroke from './resources/images/brushstroke.png';
+import brushstroke from './resources/images/brushstroke.svg';
 import tripItinFull from './resources/planitScreens/trip-itin-hifi-2.png';
 import tripListFull from './resources/planitScreens/trip-list-hifi-2.png';
 import tripDocuments from './resources/planitScreens/trip-documents-hifi.png';
