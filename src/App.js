@@ -15,7 +15,7 @@ import tripDocuments from './resources/planitScreens/trip-documents-hifi.png';
 class App extends Component {
     render() {
         const intro = () => {return(
-            <p style={{marginTop: '2.5em'}}>
+            <p className={'center'} style={{marginTop: '2.5em'}}>
                 Hi! I’m Nicole Keister, a UX Designer and Software Engineer.<br/><br/>
                 I would love to chat about job opportunities, so please contact me through <a
                 href={'https://linkedin.com/in/nicolekeister'} target='_blank' rel='noopener noreferrer'>LinkedIn</a> or
@@ -67,7 +67,7 @@ class App extends Component {
                 <h1>Design</h1>
                 <Design />
                 <h1 style={{marginTop: '2em'}}>The Final Design</h1>
-                <p className={'description'}>
+                <p className={'description center'}>
                     <br/><br/>
                     check out my prototype on inVision<br/>
                     <a href={'https://invis.io/TXPRKQZ6HZ7#/338472500_Trip_List_-_Empty'}
@@ -81,7 +81,7 @@ class App extends Component {
                     which includes even more full state designs
                 </p>
                 <div className={'divider'}/>
-                <p className={'description'}>
+                <p className={'description center'}>
                     Thanks for reading! If you liked what you saw or would like to know more, please contact me through <a
                     href={'https://linkedin.com/in/nicolekeister'} target='_blank' rel='noopener noreferrer'>LinkedIn</a> or
                     email, if you already have my contact information.<br/><br/>

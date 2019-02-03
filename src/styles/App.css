@@ -2,8 +2,8 @@
 h2, h1, body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
-  font-size: 16px;
-  text-align: center;
+  font-size: 18px;
+  text-align: left;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -104,6 +104,7 @@ h2 {
   margin-top: 2.5em;
   margin-bottom: 2em;
   text-transform: lowercase;
+  text-align: center;
 }
 
 .quote {
@@ -115,6 +116,7 @@ h2 {
   max-width: 50em;
   margin: 0 auto;
   display: inline-block;
+  text-align: left;
 }
 
 .divider {
@@ -124,6 +126,10 @@ h2 {
   margin: 3em 35%;
 }
 
+.center {
+  text-align: center;
+}
+
 @media screen and (max-width: 700px) {
   ul, ol {
     margin: 1.5em 0;
@@ -131,7 +137,7 @@ h2 {
 }
 @media screen and (max-width: 500px) {
   body {
-    font-size: 12px;
+    font-size: 14px;
     padding: 30px 20px 70px;
   }
 
@@ -141,7 +147,7 @@ h2 {
   }
 }
 .brushstroke {
-  width: 28em;
+  width: 24em;
   position: relative;
   text-align: center;
 }
