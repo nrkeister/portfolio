@@ -41,6 +41,11 @@
   margin: 0 .5em;
 }
 
+.inlineDivider {
+  display: inline-block;
+  margin: 0 1em;
+}
+
 
 @media screen and (max-width: 900px) {
   .contact {

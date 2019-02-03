@@ -5,6 +5,7 @@ import InformationArchitecture from './informationArchitecture';
 import Design from './design';
 import planitLogo from './resources/images/planit-logo.png';
 import sketchFile from './resources/planit.sketch';
+import resume from './resources/Nicole Keister Resume.pdf'
 
 // images
 import brushstroke from './resources/images/brushstroke.png';
@@ -17,9 +18,12 @@ class App extends Component {
         const intro = () => {return(
             <p className={'center'} style={{marginTop: '2.5em'}}>
                 Hi! I’m Nicole Keister, a UX Designer and Software Engineer.<br/><br/>
-                I would love to chat about job opportunities, so please contact me through <a
-                href={'https://linkedin.com/in/nicolekeister'} target='_blank' rel='noopener noreferrer'>LinkedIn</a> or
-                email, if you already have my contact information.<br/><br/>
+                I would love to chat about job opportunities, so please contact me!<br/>
+                <a href={'https://linkedin.com/in/nicolekeister'} target='_blank' rel='noopener noreferrer'>LinkedIn</a>
+                <span className={'inlineDivider'}>|</span>
+                NicoleRKeister@gmail.com
+                <span className={'inlineDivider'}>|</span>
+                <a href={resume} download={'Nicole Keister Resume.pdf'}>Resume Download</a><br/><br/>
                 Take a look at my most in-depth design project…
             </p>
         );};
@@ -71,9 +75,10 @@ class App extends Component {
                     <br/><br/>
                     check out my prototype on inVision<br/>
                     <a href={'https://invis.io/TXPRKQZ6HZ7#/338472500_Trip_List_-_Empty'}
-                       style={{marginRight: '1em'}} target='_blank' rel='noopener noreferrer'>empty state</a>  |
+                       target='_blank' rel='noopener noreferrer'>empty state</a>
+                    <span className={'inlineDivider'}>|</span>
                     <a href={'https://invis.io/TXPRKQZ6HZ7#/338472498_Trip_Itinerary_-_Full'}
-                       style={{marginLeft: '1em'}} target='_blank' rel='noopener noreferrer'>full state</a>
+                       target='_blank' rel='noopener noreferrer'>full state</a>
                     <br/><br/>
                     or
                     <br/><br/>
@@ -82,9 +87,12 @@ class App extends Component {
                 </p>
                 <div className={'divider'}/>
                 <p className={'description center'}>
-                    Thanks for reading! If you liked what you saw or would like to know more, please contact me through <a
-                    href={'https://linkedin.com/in/nicolekeister'} target='_blank' rel='noopener noreferrer'>LinkedIn</a> or
-                    email, if you already have my contact information.<br/><br/>
+                    Thanks for reading! If you liked what you saw or would like to know more, please contact me!<br/><a
+                    href={'https://linkedin.com/in/nicolekeister'} target='_blank' rel='noopener noreferrer'>LinkedIn</a>
+                    <span className={'inlineDivider'}>|</span>
+                    NicoleRKeister@gmail.com
+                    <span className={'inlineDivider'}>|</span>
+                    <a href={resume} download={'Nicole Keister Resume.pdf'}>Resume Download</a>
                 </p>
             </div>
         );
