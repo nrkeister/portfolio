@@ -53,7 +53,7 @@ class App extends Component {
                     </div>
                 </div>
                 {intro()}
-                <img src={planitLogo} className={'planitLogo'} alt="Planit Logo with spaceship"/>
+                <div  className={'planitLogo'}><img src={planitLogo} style={{width: '100%'}} alt="Planit Logo with spaceship"/></div>
                 {planitIntro()}
                 <div className={'planitScreenContainer'}>
                     <img src={tripListFull} className={'planitScreen'} alt="Full trip list"/>

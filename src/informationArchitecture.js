@@ -12,9 +12,9 @@ class InformationArchitecture extends Component {
                 <p className={'description'}>
                     I created two user flows that would be important to how the user experiences the app.
                 </p>
-                <img src={userFlowOpen} style={{width: '100%', maxWidth: '40em'}}
+                <img src={userFlowOpen} style={{width: '100%', maxWidth: '40em', display: 'block'}}
                      alt={'Flow diagram describing opening the app'}/>
-                <img src={userFlowManage} style={{width: '100%', maxWidth: '50em', marginTop: '5%'}}
+                <img src={userFlowManage} style={{width: '100%', maxWidth: '50em', display: 'block', marginTop: '5%'}}
                      alt={'Flow diagram describing managing a trip'}/>
                 <SubHeader text={'User Study'} />
                 <p className={'description'}>
